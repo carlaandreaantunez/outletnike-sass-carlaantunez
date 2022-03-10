@@ -1,0 +1,206 @@
+.col-lg-6 p {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold; }
+
+.nav-link {
+  font-weight: bold;
+  padding-right: 10px; }
+
+.text_ppal {
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 10px; }
+
+.text_parrafo {
+  font-size: 20px !important;
+  font-weight: lighter !important;
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%; }
+
+.footer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px; }
+
+/* variables-colores */
+.footer {
+  background-color: #595858; }
+
+.text {
+  background: linear-gradient(to right, #da8311, #c9c9c9); }
+  .text_ppal {
+    color: #595858 !important; }
+  .text_parrafo-color {
+    color: #e2e2e2; }
+    @media only screen and (max-width: 768px) {
+      .text_parrafo-color {
+        color: black; } }
+
+.col-lg-6 p {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold; }
+
+.nav-link {
+  font-weight: bold;
+  padding-right: 10px; }
+
+.text_ppal {
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 10px; }
+
+.text_parrafo {
+  font-size: 20px !important;
+  font-weight: lighter !important;
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%; }
+
+.footer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px; }
+
+.col-lg-6 p {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold; }
+
+.nav-link {
+  font-weight: bold;
+  padding-right: 10px; }
+
+.text_ppal {
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 10px; }
+
+.text_parrafo {
+  font-size: 20px !important;
+  font-weight: lighter !important;
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%; }
+
+.footer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px; }
+
+/* variables-colores */
+.footer {
+  background-color: #595858; }
+
+.text {
+  background: linear-gradient(to right, #da8311, #c9c9c9); }
+  .text_ppal {
+    color: #595858 !important; }
+  .text_parrafo-color {
+    color: #e2e2e2; }
+    @media only screen and (max-width: 768px) {
+      .text_parrafo-color {
+        color: black; } }
+
+.col-lg-12, .col-xs-12, .col-lg-4, .container-fluid, .row {
+  padding: 0;
+  margin: 0; }
+
+.nav-link {
+  color: black !important; }
+
+.navbar-title {
+  color: #eb8b24 !important;
+  font-weight: bold; }
+
+.background-nav {
+  background-color: gray; }
+
+.col-lg-6 p {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold; }
+
+.nav-link {
+  font-weight: bold;
+  padding-right: 10px; }
+
+.text_ppal {
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 10px; }
+
+.text_parrafo {
+  font-size: 20px !important;
+  font-weight: lighter !important;
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%; }
+
+.footer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px; }
+
+/* variables-colores */
+.footer {
+  background-color: #595858; }
+
+.text {
+  background: linear-gradient(to right, #da8311, #c9c9c9); }
+  .text_ppal {
+    color: #595858 !important; }
+  .text_parrafo-color {
+    color: #e2e2e2; }
+    @media only screen and (max-width: 768px) {
+      .text_parrafo-color {
+        color: black; } }
+
+/*variables-contenido*/
+.correct-padding {
+  padding-left: 1%;
+  padding-right: 1%; }
+
+.title {
+  text-align: center;
+  padding: 30px 0; }
+  @media only screen and (max-width: 768px) {
+    .title_ppal {
+      font-size: 25px;
+      font-weight: bold; } }
+  @media only screen and (min-width: 1024px) {
+    .title_ppal {
+      font-size: 50px;
+      font-weight: bold; } }
+  .title_ppal-color {
+    color: #eb8b24; }
+
+@media only screen and (max-width: 768px) {
+  .text_ppal {
+    font-size: 20px !important; } }
+
+@media only screen and (min-width: 1024px) {
+  .text_ppal {
+    font-size: 26px !important; } }
+
+@media only screen and (max-width: 768px) {
+  .text_parrafo {
+    font-size: 15px !important; } }
+
+@media only screen and (min-width: 1024px) {
+  .text_parrafo {
+    font-size: 15px !important; } }
