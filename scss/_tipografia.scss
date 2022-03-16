@@ -1,7 +1,12 @@
 $pDesktop:20px;
 $fontFamily: 'Open Sans', sans-serif;
+$space: 5px;
 
 
+body {
+	font-family: $fontFamily;
+	
+}
 .col-lg-6{
 	p{
 	font: {
@@ -12,16 +17,15 @@ $fontFamily: 'Open Sans', sans-serif;
 	}
 
 }
-
+/*operations*/
 .nav-link {
 	font-weight: bold;
-	padding-right: 10px;
+	padding-right: ($space * 2);
 }
 
 .text {
 	&_ppal{
 		font-weight: lighter;
-		font-family:Verdana, Geneva, Tahoma, sans-serif;
 		font-size: xx-large;
 		text-align: center;
 		margin-top: 10px;
@@ -41,3 +45,22 @@ $fontFamily: 'Open Sans', sans-serif;
 	padding-bottom: 10px;
 	margin-top: 10px;
 }
+
+.ubication {
+	&_text{
+		font-weight: lighter;
+		font-size: xx-large;
+		text-align: center;
+		margin-top: 10px;
+	}
+	&_parrafo{
+		font-size:20px!important;
+		font-weight: lighter!important;
+		text-align:justify;
+		padding-left: 10%;
+		padding-right: 10%;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+}
+

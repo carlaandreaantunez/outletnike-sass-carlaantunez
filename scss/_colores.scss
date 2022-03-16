@@ -5,6 +5,7 @@ $black:rgb(0,0,0);
 $orange:rgb(235, 139, 36);
 $gray:rgb(226, 226, 226);
 $graybis:rgb(89, 88, 88);
+$white: rgb(253, 235, 235);
 
 
 .footer {
@@ -25,3 +26,75 @@ $graybis:rgb(89, 88, 88);
 		}
 	}
 }
+
+
+/* Maps */
+$redes:(instagram:#d516ee, facebook:#3a5795, contact:#c25E30);
+
+@each $clave, $valor in $redes {
+    .btn-#{$clave} {
+        background-color:$valor;
+		font-weight: bold;
+	}
+}
+
+
+/*Map-get*/
+$estilos: (
+	color: rgb(255, 102, 0),
+	centro: center,
+	fuente: 24
+);
+
+$estilos2: (
+	fuente: "Tahoma"
+);
+
+.estilo4 {
+	color: map-get($estilos , color);
+	text-align: map-get($estilos , centro);
+	font-size: map-get($estilos, fuente);
+	font-family: map-get($estilos2 , fuente);
+}
+
+
+
+/*Extend*/
+.estilo4--change {
+	@extend .estilo4;
+	color: rgb(95, 95, 95);
+	font-size: larger;
+}
+
+.estilo4--change--second {
+	@extend .estilo4;
+	color: #000000;
+}
+
+
+
+/*Page Ubication*/
+.ubication{
+	background:linear-gradient(to bottom, rgb(115, 122, 148), rgb(201, 201, 201));
+	&_text{
+		color:$graybis;
+		text-align: center;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-weight: bolder;
+	}
+	&_parrafo{
+		&-color{
+		color:$white;
+		text-align: center;
+		font-size: 10px;
+
+	@media only screen and (max-width:768px){
+		color:$white;
+		font-size: 10px;
+		
+		}
+		}
+	}
+}
+
